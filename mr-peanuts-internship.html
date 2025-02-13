@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Meet Mr. Peanuts – Your Internship Buddy!</title>
+   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Basic Reset */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Body Styling */
+        body {
+            background-color: #f0f4f7;
+            font-family: 'Quicksand', sans-serif;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .email-container {
+            max-width: 600px;
+            margin: 30px auto;
+            background-color: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            border: 5px solid #d4eaf5;
+        }
+
+        /* Header Section */
+        .email-header {
+            background-color: #a0d6eb;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            animation: slideDown 1s ease-in-out;
+        }
+
+        @keyframes slideDown {
+            from { transform: translateY(-100px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        .email-header h1 {
+            color: #ffffff;
+            font-size: 2em;
+            margin-top: 10px;
+        }
+
+        /* Image of Mr. Peanuts */
+        .mr-peanuts-img {
+            width: 100%;
+            max-height: 520px;
+            object-fit: cover;
+            border-bottom: 3px solid #a0d6eb;
+            animation: fadeIn 1.5s ease-in;
+            margin: auto;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        /* Content Section */
+        .email-content {
+            padding: 20px;
+        }
+
+        .email-content p {
+            margin: 15px 0;
+            font-size: 1.1em;
+        }
+
+        .email-content .intro-text {
+            font-size: 1.2em;
+            text-align: center;
+            color: #555;
+        }
+
+        /* Mr. Peanuts Section */
+        .peanuts-section {
+            background-color: #e6faff;
+            border-radius: 15px;
+            padding: 20px;
+            margin: 20px 0;
+            border-left: 5px solid #33b2cf;
+            position: relative;
+        }
+
+        .peanuts-section::before {
+            content: "🐘💼";
+            position: absolute;
+            top: -15px;
+            left: -15px;
+            font-size: 2em;
+            animation: bounce 2s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        /* Human Note Section */
+        .human-note {
+            margin-top: 30px;
+            background-color: #fff6e5;
+            border-radius: 15px;
+            padding: 20px;
+            border: 3px dashed #f4a261;
+            text-align: center;
+            animation: fadeIn 2s ease-in;
+        }
+
+        .human-note h3 {
+            color: #d35400;
+            margin-bottom: 15px;
+        }
+
+        /* Footer Section */
+        .email-footer {
+            text-align: center;
+            padding: 15px;
+            font-size: 0.9em;
+            color: #777;
+        }
+
+        .email-footer .elephant-footprints {
+            font-size: 1.5em;
+            animation: march 3s infinite linear;
+            margin-top: 10px;
+        }
+
+        @keyframes march {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(30px); }
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="email-container">
+
+    <!-- Header -->
+    <div class="email-header">
+        <h1>🎉 <strong>Congratulations Once Again!</strong> 🐘💼</h1>
+    </div>
+
+    <!-- Content -->
+    <div class="email-content">
+        <p class="intro-text">
+            <strong>First day?</strong> I know you’ve had many of these! But this time, I thought I’d introduce you to a new friend who wants to come with you!  
+            <br><br>  
+            <strong>This is me, Mr. P! 🐘💼</strong>
+          <!-- Mr. Peanuts Image -->
+        </p>
+       <p>
+         <img class="mr-peanuts-img" src="https://i.pinimg.com/736x/66/8e/86/668e86c9c0b930a4dfdcd0b6a2a9faaa.jpg" alt="Mr. Peanuts in business attire">
+      </p>
+
+        <!-- Mr. Peanuts' Message -->
+        <div class="peanuts-section">
+            <p><strong>Heyyy B⚡!</strong> 👋🐘💼</p>
+            <p>Yup, it’s me—<strong>Mr. Peanuts</strong>.  
+            Your brand-new, trunk-wiggling, fun-loving <strong>Internship Buddy!</strong></p>
+
+            <p>😴☺️ <strong>Keep taking breaksssss</strong>  
+            I’m just a baby—so I rest every now and then!  
+            <strong>You, on the other hand?</strong> You don’t need to keep up with me, but <strong>join me sometimes at least!</strong> Big ideas need rested minds!</p>
+
+            <p>🥜 <strong>Meals and snacks on time and full onesssss</strong>  
+            I’m partial to peanuts (obviously), but you? <strong>An apple is NOT dinner!!!!</strong> 🍎🚫  
+            Seriously—have something better!!!</p>
+
+            <p>✨ <strong>Feeling low? I got you.</strong>  
+            I’ll be here with my floppy ears and awkward trunk moves to make you smile.</p>
+          <p>And yes, your human friend (the one writing this email!) is around too... but let’s be honest—I'm much cuter. 😉</p>
+          
+          <p>Do you know why I agreed to join you? Do you how busy I am? I already have a call sheet to some new movies🎥!! Still, I chose to join you cause You are <strong>awesome and special!!!</strong></p>
+
+            <p>Alright, that’s it from me! 🎤  
+            <strong>Over to your human… she’s been waiting to say something.</strong></p>
+        </div>
+
+        <!-- Human Note -->
+        <div class="human-note">
+            <h3>💌 <strong>A Note from Me:</strong></h3>
+            <p>
+    <strong>The "chatty" Mr. Peanuts covered most of it anyway</strong> <em>(eyes roll)</em>… 😒🐘
+</p>
+
+<p>
+    But seriously, <strong>I know you can manage it all pretty well.</strong><br><br>
+    So, I’m just going to say <strong>—All the very best!</strong> 💙 <strong>You got thissss!!!</strong>
+</p>
+
+<p>
+    And when things get a little harder—<strong>I’m always here.</strong><br>
+    Just a call or message away—whichever is easier, whatever the time.<br>
+    You can even <strong>randomly call me as well!</strong> <em>Keep in touch!</em>
+</p>
+
+<p>
+    And about the <strong>academics thing—don’t worry at all.</strong><br>
+    <strong>We’ll figure something out together!</strong>
+</p>
+
+<p>
+    And honestly, <strong>I can’t wait for us to sit together someday</strong> and laugh about these experiences—<br>
+    the good, the challenging, and of course, the funny ones too!
+</p>
+
+<p>
+    <strong>Love you!</strong> 💙 And of course, <strong>I will miss you!</strong>
+</p>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="email-footer">
+        <p><strong>Best Wishes,</strong>  
+        <strong>Jahnavi</strong> & <strong>Mr. Peanuts</strong> 🐘💼</p>
+        <div class="elephant-footprints">🐾🐾🐾🐾</div>
+    </div>
+
+</div>
+
+</body>
+</html>
